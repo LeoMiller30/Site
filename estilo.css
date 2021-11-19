@@ -10,8 +10,9 @@ font-family: 'Lora', serif;
 background: rgb(91, 156, 102);
 } 
 a{   text-decoration: none;
-color: rgb(20, 63, 20);}
+color: rgb(28, 85, 28);}
 .header{
+ background: #333232;   
  background: #dfdbdb;   
 display: flex;
 flex-wrap: wrap;
@@ -20,10 +21,12 @@ align-items: center;
 padding: 10px;
 } 
 .menu{
+   background: #333232;
    background: #dfdbdb;
 display: flex;
 }
 .menu li{
+   background: #333232;
    background: #dfdbdb;
 margin-left: 20px;
 } 
@@ -72,4 +75,29 @@ border-left: 3px solid #3bb54a;
 }
 .red{
 border-left: 3px solid #b3404d;
-} 
+}  
+.texto{
+transform: center;
+margin-left: 70px ;
+}
+.youtube{
+align-items: left;
+margin-left: 20px;
+}
+.videoartigo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: justify;
+   padding: 40px;
+   margin-top: -150px;
+}
+.rodape{  
+   background-color: #dfdbdb;   
+display: flex;
+align-items: center;
+position: absolute;
+color: #000000;
+margin-left: 140px;
+padding: 1px;
+}
