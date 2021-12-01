@@ -94,10 +94,14 @@ margin-left: 20px;
 }
 .rodape{  
    background-color: #dfdbdb;   
-display: flex;
-align-items: center;
-position: absolute;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
 color: #000000;
-margin-left: 140px;
 padding: 1px;
+}
+
+.rodape p{
+   background-color: #dfdbdb; 
+padding: 7px;
 }
